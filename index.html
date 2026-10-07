@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070707">
+  <meta name="description" content="Bandrami SMP — a Minecraft Lifesteal community.">
+  <title>Bandrami SMP — Minecraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand">
+        <a href="#home" class="brand-link" aria-label="Home">
+          <img src="assets/logo/server-logo.png" alt="Server logo" class="brand-logo">
+        </a>
+        <div class="brand-copy">
+          <span class="eyebrow">MINECRAFT</span>
+          <strong id="siteName">BANDRAMI SMP</strong>
+        </div>
+      </div>
+
+      <div class="sidebar-divider"></div>
+
+      <nav class="nav-list">
+        <a href="#home" class="nav-item active"><span class="nav-index">00</span><span>HOME</span></a>
+        <a href="#info" class="nav-item"><span class="nav-index">01</span><span>INFO</span></a>
+        <a href="#staff" class="nav-item"><span class="nav-index">02</span><span>STAFF</span></a>
+        <a href="#plugins" class="nav-item"><span class="nav-index">03</span><span>PLUGS</span></a>
+        <a href="#resource-pack" class="nav-item"><span class="nav-index">04</span><span>RESOURCE PACK</span></a>
+        <a href="#mods" class="nav-item"><span class="nav-index">05</span><span>BANNABLE MODS</span></a>
+        <a href="#notices" class="nav-item"><span class="nav-index">06</span><span>NOTICES</span></a>
+        <a href="#gallery" class="nav-item"><span class="nav-index">07</span><span>GALLERY</span></a>
+        <a href="#join" class="nav-item"><span class="nav-index">08</span><span>JOIN</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span>STATUS</span>
+        <strong>CHECK DISCORD</strong>
+      </div>
+    </aside>
+
+    <header class="mobile-header">
+      <a href="#home" class="mobile-brand">
+        <img src="assets/logo/server-logo.png" alt="Server logo">
+        <span id="mobileSiteName">BANDRAMI SMP</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+    </header>
+
+    <div id="mobileNav" class="mobile-nav" hidden>
+      <a href="#home">HOME</a>
+      <a href="#info">INFO</a>
+      <a href="#staff">STAFF</a>
+      <a href="#plugins">PLUGINS</a>
+      <a href="#resource-pack">RESOURCE PACK</a>
+      <a href="#mods">BANNABLE MODS</a>
+      <a href="#notices">NOTICES</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#join">JOIN</a>
+    </div>
+
+    <main id="main-content" tabindex="-1">
+      <section id="home" class="page-section hero-section" data-route="home">
+        <div class="hero-scanline" aria-hidden="true"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-content reveal">
+          <div class="hero-kicker"><span></span> PRIVATE MINECRAFT COMMUNITY</div>
+          <h1><span class="pixel-word accent">BANDRAMI</span><br><span class="pixel-word">SMP</span></h1>
+          <p class="hero-text">A clean hub for the server's people, guides, notices, mods and community info.</p>
+          <div class="hero-actions">
+            <a href="#staff" class="button button-primary">MEET THE STAFF</a>
+            <a href="#join" class="button button-ghost">HOW TO JOIN</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal reveal-delay">
+          <div class="status-card">
+            <span class="status-dot"></span>
+            <div>
+              <small>SERVER STATUS</small>
+              <strong>CHECK DISCORD</strong>
+            </div>
+          </div>
+          <div class="quick-card">
+            <span class="quick-card-label">CURRENT INFO</span>
+            <div id="homeInfoPreview" class="markdown-preview">
+              <div class="skeleton skeleton-line"></div>
+              <div class="skeleton skeleton-line short"></div>
+              <div class="skeleton skeleton-line shorter"></div>
+            </div>
+            <a href="#info" class="text-link">OPEN SERVER INFO →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="info" class="page-section" data-route="info">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">01</span>
+            <h2>SERVER INFO</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="serverInfoGrid" class="info-grid"></div>
+      </section>
+
+      <section id="staff" class="page-section" data-route="staff">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">02</span>
+            <h2>STAFF</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="staffGrid" class="card-grid staff-grid"></div>
+      </section>
+
+      <section id="plugins" class="page-section" data-route="plugins">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">03</span>
+            <h2>PLUGINS</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="pluginsGrid" class="card-grid"></div>
+      </section>
+
+      <section id="resource-pack" class="page-section" data-route="resource-pack">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">04</span>
+            <h2>RESOURCE PACK</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div class="wide-content-card reveal in-view">
+          <h3>Bandrami SMP Custom Rank Pack</h3>
+          <div class="rich-copy">
+            <p>Download the custom rank resource pack for Bandrami SMP.</p>
+            <a class="button button-primary" href="assets/resource-pack/BrandamiSMP_Custom_Rank_Pack_Java.zip" download>DOWNLOAD RESOURCE PACK</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="mods" class="page-section" data-route="mods">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">05</span>
+            <h2>BANNABLE MODS</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="modpackBlock" class="wide-content-card"></div>
+        <div class="wide-content-card contact-card reveal in-view">
+          <h3>INQUIRIES</h3>
+          <div class="rich-copy"><p>For any inquiries, please contact the server owner.</p></div>
+        </div>
+      </section>
+
+      <section id="notices" class="page-section" data-route="notices">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">06</span>
+            <h2>RECENT NOTICES</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="noticesGrid" class="notice-grid"></div>
+      </section>
+
+      <section id="gallery" class="page-section" data-route="gallery">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-index">07</span>
+            <h2>GALLERY</h2>
+          </div>
+          <p>Bandrami SMP</p>
+        </div>
+        <div id="galleryGrid" class="gallery-grid"></div>
+      </section>
+
+      <section id="join" class="page-section join-section" data-route="join">
+        <div class="join-panel reveal">
+          <span class="section-index">08</span>
+          <h2>HOW TO JOIN</h2>
+          <div id="joinContent" class="rich-copy"></div>
+          <div class="join-actions">
+            <a id="discordButton" class="button button-primary" href="#" target="_blank" rel="noopener noreferrer">OPEN DISCORD</a>
+            <a href="#info" class="button button-ghost">READ SERVER INFO</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>BANDRAMI SMP</span>
+      <span>SEE DISCORD FOR SERVER STATUS</span>
+    </footer>
+  </div>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <div id="modalMedia"></div>
+      <div class="modal-copy">
+        <span id="modalMeta" class="modal-meta"></span>
+        <h3 id="modalTitle"></h3>
+        <div id="modalBody" class="rich-copy"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js?v=plugin-icons-2" defer></script>
+</body>
+</html>

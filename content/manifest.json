@@ -1,0 +1,22 @@
+{
+  "content/staff/": [
+    "content/staff/zeko-px.md",
+    "content/staff/ashersuxz.md",
+    "content/staff/yvngsmoke.md",
+    "content/staff/lionex.md",
+    "content/staff/zif-exe.md",
+    "content/staff/3dezer.md",
+    "content/staff/typherrix.md",
+    "content/staff/atomic.md"
+  ],
+  "content/plugins/": [
+    "content/plugins/lifesteal.md",
+    "content/plugins/bliss-smp.md",
+    "content/plugins/shopgui.md",
+    "content/plugins/auction.md",
+    "content/plugins/simple-voice-chat.md"
+  ],
+  "content/mods/": [],
+  "content/notices/": [],
+  "assets/gallery/": []
+}
